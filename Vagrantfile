@@ -36,7 +36,7 @@ Vagrant.configure("2") do |config|
      #虚拟机安装nfs服务，yum -y install nfs-utils rpcbind
      config.vm.synced_folder ".", "/vagrant",create: true
      #执行shell脚本
-     config.vm.provision "shell", path: "./bin/ssh_init.sh"
+     config.vm.provision "shell", path: "./scripts/ssh_init.sh"
     
   host_list.each do |item|
     config.vm.define item[:name] do |host|
