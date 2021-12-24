@@ -18,4 +18,8 @@
 .vagrant/machines/ubuntu-node/virtualbox/synced_folders
 .vagrant/machines/ubuntu-node/virtualbox/vagrant_cwd
 .vagrant/rgloader/loader.rb
-resources/jdk-8u202-linux-x64.tar.gz
+modules/jdk-8u202-linux-x64.tar.gz
+modules/jenkins.war
+modules/jdk-8u311-linux-x64.tar.gz
+modules/apache-tomcat-9.0.56.tar.gz
+modules/apache-maven-3.8.4-bin.tar.gz
