@@ -23,3 +23,5 @@ modules/jenkins.war
 modules/jdk-8u311-linux-x64.tar.gz
 modules/apache-tomcat-9.0.56.tar.gz
 modules/apache-maven-3.8.4-bin.tar.gz
+modules/kompose
+modules/docker-compose.yml

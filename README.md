@@ -31,4 +31,7 @@ $ ./scripts/master_init.sh
 $ ./scripts/node_init.sh
 #node虚拟机运行完脚本后，执行master最后的join命令就能加入节点了。
 ```
-**最后**, 框架或者工具初始化的脚本自行选择安装即可。
+**最后**, 框架或者工具初始化的脚本自行选择安装即可。注：下载jdk的安装包须登录oracle官网，无法跳过认证，请自行下载,只需替换下脚本中的包名和目录名。
+```bash
+$ ./modules/jenkins_install.sh
+```
