@@ -20,8 +20,8 @@ fi
 	echo "---------------------------------"
 	mkdir -p /opt/install/tomcat/
 	mv ./apache-tomcat-9.0.56 /opt/install/tomcat/tomcat9
-	# change port 8080 to 80
-	echo "变更tomcat默认端口号为80..."
-	sed -i 's/8080/80/' /opt/install/tomcat/tomcat9/conf/server.xml
+	# change port 8080 to 10086 
+	echo "变更tomcat默认端口号为10086..."
+	sed -i 's/8080/10086/' /opt/install/tomcat/tomcat9/conf/server.xml
 
 
